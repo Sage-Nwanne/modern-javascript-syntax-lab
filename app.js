@@ -70,7 +70,7 @@ const morePizzaToppings = ['Cheese', 'Sauce'];
 
 // Your code here:
 
-const uncontroversialPizzaToppings = [...morePizzaToppings, morePizzaToppings]
+const uncontroversialPizzaToppings = [...morePizzaToppings]
 console.log(uncontroversialPizzaToppings)
 
 // ! Exercise 5: Applying the spread operator on Objects
@@ -139,12 +139,9 @@ console.log(userProfile);
 //
 // Your code here:
 
-function nounSentence( noun, adjective)  {
-  if (noun !== cat || adjective !== orange) {
+function nounSentence( noun = cat , adjective = orange)  {
     console.log(`The ${noun} is ${adjective}`)
-  } else {
-    console.log('The cat is orange')
-  }
+
     
 };
 
