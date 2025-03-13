@@ -139,7 +139,7 @@ console.log(userProfile);
 //
 // Your code here:
 
-function nounSentence( noun = cat , adjective = orange)  {
+function nounSentence( noun = "cat" , adjective = "orange")  {
     console.log(`The ${noun} is ${adjective}`)
 
     
